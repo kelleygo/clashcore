@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/lingyicute/yiclashcore/common/utils"
+	"github.com/kelleygo/clashcore/common/utils"
 	"github.com/openacid/low/bitmap"
 )
 

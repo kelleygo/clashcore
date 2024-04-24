@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/component/resolver"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/component/resolver"
+	"github.com/kelleygo/clashcore/log"
 
 	D "github.com/miekg/dns"
 	"golang.org/x/exp/slices"

@@ -21,9 +21,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/lingyicute/yiclashcore/common/utils"
-	"github.com/lingyicute/yiclashcore/log"
-	"github.com/lingyicute/yiclashcore/ntp"
+	"github.com/kelleygo/clashcore/common/utils"
+	"github.com/kelleygo/clashcore/log"
+	"github.com/kelleygo/clashcore/ntp"
 
 	utls "github.com/sagernet/utls"
 	"github.com/zhangyunhao116/fastrand"

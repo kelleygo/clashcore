@@ -7,7 +7,7 @@ import (
 	"net/netip"
 	"sync"
 
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/log"
 )
 
 var printMarkWarnOnce sync.Once

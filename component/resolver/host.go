@@ -8,8 +8,8 @@ import (
 	"strings"
 	_ "unsafe"
 
-	"github.com/lingyicute/yiclashcore/common/utils"
-	"github.com/lingyicute/yiclashcore/component/trie"
+	"github.com/kelleygo/clashcore/common/utils"
+	"github.com/kelleygo/clashcore/component/trie"
 	"github.com/zhangyunhao116/fastrand"
 )
 

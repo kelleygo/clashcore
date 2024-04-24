@@ -4,7 +4,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/lingyicute/yiclashcore/common/net/packet"
+	"github.com/kelleygo/clashcore/common/net/packet"
 
 	"github.com/sagernet/sing/common/buf"
 	"github.com/sagernet/sing/common/bufio"

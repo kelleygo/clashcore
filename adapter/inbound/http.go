@@ -3,8 +3,8 @@ package inbound
 import (
 	"net"
 
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/transport/socks5"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/transport/socks5"
 )
 
 // NewHTTP receive normal http request and return HTTPContext

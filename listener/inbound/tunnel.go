@@ -3,9 +3,9 @@ package inbound
 import (
 	"fmt"
 
-	C "github.com/lingyicute/yiclashcore/constant"
-	LT "github.com/lingyicute/yiclashcore/listener/tunnel"
-	"github.com/lingyicute/yiclashcore/log"
+	C "github.com/kelleygo/clashcore/constant"
+	LT "github.com/kelleygo/clashcore/listener/tunnel"
+	"github.com/kelleygo/clashcore/log"
 )
 
 type TunnelOption struct {

@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/lingyicute/yiclashcore/config"
-	"github.com/lingyicute/yiclashcore/hub/updater"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/config"
+	"github.com/kelleygo/clashcore/hub/updater"
+	"github.com/kelleygo/clashcore/log"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

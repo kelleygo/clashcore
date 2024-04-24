@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
-	yiclashcoreHttp "github.com/lingyicute/yiclashcore/component/http"
-	types "github.com/lingyicute/yiclashcore/constant/provider"
+	yiclashcoreHttp "github.com/kelleygo/clashcore/component/http"
+	types "github.com/kelleygo/clashcore/constant/provider"
 )
 
 type FileVehicle struct {

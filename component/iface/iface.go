@@ -6,7 +6,7 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/singledo"
+	"github.com/kelleygo/clashcore/common/singledo"
 )
 
 type Interface struct {

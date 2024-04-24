@@ -5,9 +5,9 @@ import (
 	"crypto/tls"
 	"net"
 
-	"github.com/lingyicute/yiclashcore/component/ca"
-	tlsC "github.com/lingyicute/yiclashcore/component/tls"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/component/ca"
+	tlsC "github.com/kelleygo/clashcore/component/tls"
+	"github.com/kelleygo/clashcore/log"
 
 	"github.com/sagernet/sing-shadowtls"
 	sing_common "github.com/sagernet/sing/common"

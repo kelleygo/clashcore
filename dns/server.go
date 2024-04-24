@@ -5,10 +5,10 @@ import (
 	"errors"
 	"net"
 
-	"github.com/lingyicute/yiclashcore/common/sockopt"
-	"github.com/lingyicute/yiclashcore/constant/features"
-	"github.com/lingyicute/yiclashcore/context"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/common/sockopt"
+	"github.com/kelleygo/clashcore/constant/features"
+	"github.com/kelleygo/clashcore/context"
+	"github.com/kelleygo/clashcore/log"
 
 	D "github.com/miekg/dns"
 )

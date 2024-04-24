@@ -5,9 +5,9 @@ import (
 	"net/netip"
 	"strings"
 
-	"github.com/lingyicute/yiclashcore/component/cidr"
-	"github.com/lingyicute/yiclashcore/component/geodata/strmatcher"
-	"github.com/lingyicute/yiclashcore/component/trie"
+	"github.com/kelleygo/clashcore/component/cidr"
+	"github.com/kelleygo/clashcore/component/geodata/strmatcher"
+	"github.com/kelleygo/clashcore/component/trie"
 )
 
 var matcherTypeMap = map[Domain_Type]strmatcher.Type{

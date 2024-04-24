@@ -1,4 +1,4 @@
-module github.com/lingyicute/yiclashcore
+module github.com/kelleygo/clashcore
 
 go 1.20
 

@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/lingyicute/yiclashcore/listener/sing"
+	"github.com/kelleygo/clashcore/listener/sing"
 
 	"encoding/json"
 )

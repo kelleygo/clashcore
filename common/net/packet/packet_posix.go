@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/lingyicute/yiclashcore/common/pool"
+	"github.com/kelleygo/clashcore/common/pool"
 )
 
 type enhanceUDPConn struct {

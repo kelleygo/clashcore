@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/component/ca"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/component/ca"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
 	"github.com/metacubex/quic-go"
 
 	D "github.com/miekg/dns"

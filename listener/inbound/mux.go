@@ -1,6 +1,6 @@
 package inbound
 
-import "github.com/lingyicute/yiclashcore/listener/sing"
+import "github.com/kelleygo/clashcore/listener/sing"
 
 type MuxOption struct {
 	Padding bool          `inbound:"padding,omitempty"`

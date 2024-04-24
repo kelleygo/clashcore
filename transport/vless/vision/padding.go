@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/lingyicute/yiclashcore/common/buf"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/common/buf"
+	"github.com/kelleygo/clashcore/log"
 
 	"github.com/gofrs/uuid/v5"
 	"github.com/zhangyunhao116/fastrand"

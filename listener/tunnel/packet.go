@@ -3,7 +3,7 @@ package tunnel
 import (
 	"net"
 
-	"github.com/lingyicute/yiclashcore/common/pool"
+	"github.com/kelleygo/clashcore/common/pool"
 )
 
 type packet struct {

@@ -5,7 +5,7 @@ import (
 	"net"
 	"runtime"
 
-	"github.com/lingyicute/yiclashcore/common/net/deadline"
+	"github.com/kelleygo/clashcore/common/net/deadline"
 
 	"github.com/sagernet/sing/common"
 	"github.com/sagernet/sing/common/bufio"

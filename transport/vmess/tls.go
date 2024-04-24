@@ -6,8 +6,8 @@ import (
 	"errors"
 	"net"
 
-	"github.com/lingyicute/yiclashcore/component/ca"
-	tlsC "github.com/lingyicute/yiclashcore/component/tls"
+	"github.com/kelleygo/clashcore/component/ca"
+	tlsC "github.com/kelleygo/clashcore/component/tls"
 )
 
 type TLSConfig struct {

@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/component/resolver"
-	"github.com/lingyicute/yiclashcore/constant/features"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/component/resolver"
+	"github.com/kelleygo/clashcore/constant/features"
+	"github.com/kelleygo/clashcore/log"
 )
 
 const (

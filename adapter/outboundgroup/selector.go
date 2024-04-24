@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/lingyicute/yiclashcore/adapter/outbound"
-	"github.com/lingyicute/yiclashcore/component/dialer"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/constant/provider"
+	"github.com/kelleygo/clashcore/adapter/outbound"
+	"github.com/kelleygo/clashcore/component/dialer"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/constant/provider"
 )
 
 type Selector struct {

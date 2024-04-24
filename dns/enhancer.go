@@ -3,9 +3,9 @@ package dns
 import (
 	"net/netip"
 
-	"github.com/lingyicute/yiclashcore/common/lru"
-	"github.com/lingyicute/yiclashcore/component/fakeip"
-	C "github.com/lingyicute/yiclashcore/constant"
+	"github.com/kelleygo/clashcore/common/lru"
+	"github.com/kelleygo/clashcore/component/fakeip"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 type ResolverEnhancer struct {

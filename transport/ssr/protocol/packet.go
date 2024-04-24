@@ -3,8 +3,8 @@ package protocol
 import (
 	"net"
 
-	N "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/common/pool"
+	N "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/common/pool"
 )
 
 type PacketConn struct {

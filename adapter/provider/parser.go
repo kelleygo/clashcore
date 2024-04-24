@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/structure"
-	"github.com/lingyicute/yiclashcore/common/utils"
-	"github.com/lingyicute/yiclashcore/component/resource"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/constant/features"
-	types "github.com/lingyicute/yiclashcore/constant/provider"
+	"github.com/kelleygo/clashcore/common/structure"
+	"github.com/kelleygo/clashcore/common/utils"
+	"github.com/kelleygo/clashcore/component/resource"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/constant/features"
+	types "github.com/kelleygo/clashcore/constant/provider"
 )
 
 var (

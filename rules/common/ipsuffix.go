@@ -1,7 +1,7 @@
 package common
 
 import (
-	C "github.com/lingyicute/yiclashcore/constant"
+	C "github.com/kelleygo/clashcore/constant"
 	"net/netip"
 )
 

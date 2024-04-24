@@ -1,9 +1,9 @@
 package inbound
 
 import (
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/listener/http"
-	"github.com/lingyicute/yiclashcore/log"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/listener/http"
+	"github.com/kelleygo/clashcore/log"
 )
 
 type HTTPOption struct {

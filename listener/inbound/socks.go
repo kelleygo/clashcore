@@ -2,9 +2,9 @@ package inbound
 
 import (
 	"fmt"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/listener/socks"
-	"github.com/lingyicute/yiclashcore/log"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/listener/socks"
+	"github.com/kelleygo/clashcore/log"
 )
 
 type SocksOption struct {

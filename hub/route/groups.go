@@ -9,12 +9,12 @@ import (
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 
-	"github.com/lingyicute/yiclashcore/adapter"
-	"github.com/lingyicute/yiclashcore/adapter/outboundgroup"
-	"github.com/lingyicute/yiclashcore/common/utils"
-	"github.com/lingyicute/yiclashcore/component/profile/cachefile"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/tunnel"
+	"github.com/kelleygo/clashcore/adapter"
+	"github.com/kelleygo/clashcore/adapter/outboundgroup"
+	"github.com/kelleygo/clashcore/common/utils"
+	"github.com/kelleygo/clashcore/component/profile/cachefile"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/tunnel"
 )
 
 func GroupRouter() http.Handler {

@@ -12,13 +12,13 @@ import (
 	"net/http"
 	"sync"
 
-	N "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/common/pool"
-	"github.com/lingyicute/yiclashcore/component/ca"
-	tlsC "github.com/lingyicute/yiclashcore/component/tls"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/transport/socks5"
-	"github.com/lingyicute/yiclashcore/transport/vmess"
+	N "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/common/pool"
+	"github.com/kelleygo/clashcore/component/ca"
+	tlsC "github.com/kelleygo/clashcore/component/tls"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/transport/socks5"
+	"github.com/kelleygo/clashcore/transport/vmess"
 )
 
 const (

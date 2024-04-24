@@ -7,9 +7,9 @@ import (
 	"hash/crc32"
 	"net"
 
-	N "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/common/pool"
-	"github.com/lingyicute/yiclashcore/transport/ssr/tools"
+	N "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/common/pool"
+	"github.com/kelleygo/clashcore/transport/ssr/tools"
 
 	"github.com/zhangyunhao116/fastrand"
 )

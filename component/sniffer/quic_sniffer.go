@@ -8,9 +8,9 @@ import (
 	"errors"
 	"io"
 
-	"github.com/lingyicute/yiclashcore/common/buf"
-	"github.com/lingyicute/yiclashcore/common/utils"
-	C "github.com/lingyicute/yiclashcore/constant"
+	"github.com/kelleygo/clashcore/common/buf"
+	"github.com/kelleygo/clashcore/common/utils"
+	C "github.com/kelleygo/clashcore/constant"
 
 	"github.com/metacubex/quic-go/quicvarint"
 	"golang.org/x/crypto/hkdf"

@@ -3,11 +3,11 @@ package adapter
 import (
 	"fmt"
 
-	tlsC "github.com/lingyicute/yiclashcore/component/tls"
+	tlsC "github.com/kelleygo/clashcore/component/tls"
 
-	"github.com/lingyicute/yiclashcore/adapter/outbound"
-	"github.com/lingyicute/yiclashcore/common/structure"
-	C "github.com/lingyicute/yiclashcore/constant"
+	"github.com/kelleygo/clashcore/adapter/outbound"
+	"github.com/kelleygo/clashcore/common/structure"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 func ParseProxy(mapping map[string]any) (C.Proxy, error) {

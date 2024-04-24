@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/http"
 
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/constant/provider"
-	"github.com/lingyicute/yiclashcore/tunnel"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/constant/provider"
+	"github.com/kelleygo/clashcore/tunnel"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

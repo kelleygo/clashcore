@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/component/dhcp"
-	"github.com/lingyicute/yiclashcore/component/iface"
+	"github.com/kelleygo/clashcore/component/dhcp"
+	"github.com/kelleygo/clashcore/component/iface"
 	D "github.com/miekg/dns"
 )
 

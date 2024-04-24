@@ -6,9 +6,9 @@ import (
 	"net"
 	"runtime"
 
-	"github.com/lingyicute/yiclashcore/common/cmd"
-	"github.com/lingyicute/yiclashcore/component/dialer"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/common/cmd"
+	"github.com/kelleygo/clashcore/component/dialer"
+	"github.com/kelleygo/clashcore/log"
 )
 
 var (

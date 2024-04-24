@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/lingyicute/yiclashcore/component/slowdown"
+	"github.com/kelleygo/clashcore/component/slowdown"
 	M "github.com/sagernet/sing/common/metadata"
 )
 

@@ -3,7 +3,7 @@ package fakeip
 import (
 	"net/netip"
 
-	"github.com/lingyicute/yiclashcore/common/lru"
+	"github.com/kelleygo/clashcore/common/lru"
 )
 
 type memoryStore struct {

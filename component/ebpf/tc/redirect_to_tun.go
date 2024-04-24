@@ -14,8 +14,8 @@ import (
 	"github.com/sagernet/netlink"
 	"golang.org/x/sys/unix"
 
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/transport/socks5"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/transport/socks5"
 )
 
 //go:generate go run github.com/cilium/ebpf/cmd/bpf2go -cc $BPF_CLANG -cflags $BPF_CFLAGS bpf ../bpf/tc.c

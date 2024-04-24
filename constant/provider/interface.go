@@ -1,8 +1,8 @@
 package provider
 
 import (
-	"github.com/lingyicute/yiclashcore/common/utils"
-	"github.com/lingyicute/yiclashcore/constant"
+	"github.com/kelleygo/clashcore/common/utils"
+	"github.com/kelleygo/clashcore/constant"
 )
 
 // Vehicle Type

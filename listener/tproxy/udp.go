@@ -4,10 +4,10 @@ import (
 	"net"
 	"net/netip"
 
-	"github.com/lingyicute/yiclashcore/adapter/inbound"
-	"github.com/lingyicute/yiclashcore/common/pool"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/transport/socks5"
+	"github.com/kelleygo/clashcore/adapter/inbound"
+	"github.com/kelleygo/clashcore/common/pool"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/transport/socks5"
 )
 
 type UDPListener struct {

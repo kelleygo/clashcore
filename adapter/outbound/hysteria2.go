@@ -10,14 +10,14 @@ import (
 	"strconv"
 	"time"
 
-	CN "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/common/utils"
-	"github.com/lingyicute/yiclashcore/component/ca"
-	"github.com/lingyicute/yiclashcore/component/dialer"
-	"github.com/lingyicute/yiclashcore/component/proxydialer"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
-	tuicCommon "github.com/lingyicute/yiclashcore/transport/tuic/common"
+	CN "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/common/utils"
+	"github.com/kelleygo/clashcore/component/ca"
+	"github.com/kelleygo/clashcore/component/dialer"
+	"github.com/kelleygo/clashcore/component/proxydialer"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
+	tuicCommon "github.com/kelleygo/clashcore/transport/tuic/common"
 
 	"github.com/metacubex/sing-quic/hysteria2"
 

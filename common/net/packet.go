@@ -1,8 +1,8 @@
 package net
 
 import (
-	"github.com/lingyicute/yiclashcore/common/net/deadline"
-	"github.com/lingyicute/yiclashcore/common/net/packet"
+	"github.com/kelleygo/clashcore/common/net/deadline"
+	"github.com/kelleygo/clashcore/common/net/packet"
 )
 
 type EnhancePacketConn = packet.EnhancePacketConn

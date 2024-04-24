@@ -7,7 +7,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/lingyicute/yiclashcore/common/pool"
+	"github.com/kelleygo/clashcore/common/pool"
 )
 
 type aeadWriter struct {

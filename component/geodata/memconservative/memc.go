@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/lingyicute/yiclashcore/component/geodata"
-	"github.com/lingyicute/yiclashcore/component/geodata/router"
+	"github.com/kelleygo/clashcore/component/geodata"
+	"github.com/kelleygo/clashcore/component/geodata/router"
 )
 
 type memConservativeLoader struct {

@@ -6,7 +6,7 @@ import (
 	"net/netip"
 	"runtime"
 
-	"github.com/lingyicute/yiclashcore/component/dialer"
+	"github.com/kelleygo/clashcore/component/dialer"
 )
 
 func ListenDHCPClient(ctx context.Context, ifaceName string) (net.PacketConn, error) {

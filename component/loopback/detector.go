@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/netip"
 
-	"github.com/lingyicute/yiclashcore/common/callback"
-	"github.com/lingyicute/yiclashcore/component/iface"
-	C "github.com/lingyicute/yiclashcore/constant"
+	"github.com/kelleygo/clashcore/common/callback"
+	"github.com/kelleygo/clashcore/component/iface"
+	C "github.com/kelleygo/clashcore/constant"
 
 	"github.com/puzpuzpuz/xsync/v3"
 )

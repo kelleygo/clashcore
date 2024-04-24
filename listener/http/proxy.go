@@ -10,12 +10,12 @@ import (
 	"sync"
 	_ "unsafe"
 
-	"github.com/lingyicute/yiclashcore/adapter/inbound"
-	"github.com/lingyicute/yiclashcore/common/lru"
-	N "github.com/lingyicute/yiclashcore/common/net"
-	C "github.com/lingyicute/yiclashcore/constant"
-	authStore "github.com/lingyicute/yiclashcore/listener/auth"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/adapter/inbound"
+	"github.com/kelleygo/clashcore/common/lru"
+	N "github.com/kelleygo/clashcore/common/net"
+	C "github.com/kelleygo/clashcore/constant"
+	authStore "github.com/kelleygo/clashcore/listener/auth"
+	"github.com/kelleygo/clashcore/log"
 )
 
 //go:linkname registerOnHitEOF net/http.registerOnHitEOF

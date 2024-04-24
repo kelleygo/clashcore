@@ -6,7 +6,7 @@ import (
 	"net"
 	"net/url"
 
-	"github.com/lingyicute/yiclashcore/transport/socks5"
+	"github.com/kelleygo/clashcore/transport/socks5"
 )
 
 type packet struct {

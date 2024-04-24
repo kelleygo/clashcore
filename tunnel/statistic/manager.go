@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/atomic"
+	"github.com/kelleygo/clashcore/common/atomic"
 
 	"github.com/puzpuzpuz/xsync/v3"
 	"github.com/shirou/gopsutil/v3/process"

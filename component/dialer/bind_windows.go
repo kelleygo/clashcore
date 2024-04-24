@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/lingyicute/yiclashcore/component/iface"
+	"github.com/kelleygo/clashcore/component/iface"
 )
 
 const (

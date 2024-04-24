@@ -3,12 +3,12 @@ package socks
 import (
 	"net"
 
-	"github.com/lingyicute/yiclashcore/adapter/inbound"
-	N "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/common/sockopt"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
-	"github.com/lingyicute/yiclashcore/transport/socks5"
+	"github.com/kelleygo/clashcore/adapter/inbound"
+	N "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/common/sockopt"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
+	"github.com/kelleygo/clashcore/transport/socks5"
 )
 
 type UDPListener struct {

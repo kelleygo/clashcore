@@ -20,7 +20,7 @@ import (
 	"github.com/metacubex/gopacket"
 	"github.com/metacubex/gopacket/layers"
 
-	"github.com/lingyicute/yiclashcore/component/dialer"
+	"github.com/kelleygo/clashcore/component/dialer"
 )
 
 var (

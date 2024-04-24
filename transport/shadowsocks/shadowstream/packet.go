@@ -6,8 +6,8 @@ import (
 	"io"
 	"net"
 
-	N "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/common/pool"
+	N "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/common/pool"
 )
 
 // ErrShortPacket means the packet is too short to be a valid encrypted packet.

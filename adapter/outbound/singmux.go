@@ -5,12 +5,12 @@ import (
 	"errors"
 	"runtime"
 
-	CN "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/component/dialer"
-	"github.com/lingyicute/yiclashcore/component/proxydialer"
-	"github.com/lingyicute/yiclashcore/component/resolver"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
+	CN "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/component/dialer"
+	"github.com/kelleygo/clashcore/component/proxydialer"
+	"github.com/kelleygo/clashcore/component/resolver"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
 
 	mux "github.com/sagernet/sing-mux"
 	E "github.com/sagernet/sing/common/exceptions"

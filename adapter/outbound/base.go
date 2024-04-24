@@ -7,10 +7,10 @@ import (
 	"strings"
 	"syscall"
 
-	N "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/common/utils"
-	"github.com/lingyicute/yiclashcore/component/dialer"
-	C "github.com/lingyicute/yiclashcore/constant"
+	N "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/common/utils"
+	"github.com/kelleygo/clashcore/component/dialer"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 type Base struct {

@@ -6,8 +6,8 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/lingyicute/yiclashcore/component/ca"
-	"github.com/lingyicute/yiclashcore/transport/vmess"
+	"github.com/kelleygo/clashcore/component/ca"
+	"github.com/kelleygo/clashcore/transport/vmess"
 )
 
 // Option is options of websocket obfs

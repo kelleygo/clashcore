@@ -4,7 +4,7 @@ import (
 	"crypto/tls"
 	"net"
 
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/log"
 
 	"github.com/mroth/weightedrand/v2"
 	utls "github.com/sagernet/utls"

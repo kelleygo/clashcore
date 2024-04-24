@@ -3,7 +3,7 @@ package packet
 import (
 	"net"
 
-	"github.com/lingyicute/yiclashcore/common/pool"
+	"github.com/kelleygo/clashcore/common/pool"
 )
 
 type WaitReadFrom interface {

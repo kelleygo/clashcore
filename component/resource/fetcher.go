@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"time"
 
-	types "github.com/lingyicute/yiclashcore/constant/provider"
-	"github.com/lingyicute/yiclashcore/log"
+	types "github.com/kelleygo/clashcore/constant/provider"
+	"github.com/kelleygo/clashcore/log"
 
 	"github.com/samber/lo"
 )

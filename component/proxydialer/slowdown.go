@@ -5,8 +5,8 @@ import (
 	"net"
 	"net/netip"
 
-	"github.com/lingyicute/yiclashcore/component/slowdown"
-	C "github.com/lingyicute/yiclashcore/constant"
+	"github.com/kelleygo/clashcore/component/slowdown"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 type SlowDownDialer struct {

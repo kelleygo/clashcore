@@ -4,8 +4,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/lingyicute/yiclashcore/common/buf"
-	"github.com/lingyicute/yiclashcore/common/once"
+	"github.com/kelleygo/clashcore/common/buf"
+	"github.com/kelleygo/clashcore/common/once"
 )
 
 type earlyConn struct {

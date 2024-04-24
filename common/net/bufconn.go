@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"net"
 
-	"github.com/lingyicute/yiclashcore/common/buf"
+	"github.com/kelleygo/clashcore/common/buf"
 )
 
 var _ ExtendedConn = (*BufferedConn)(nil)

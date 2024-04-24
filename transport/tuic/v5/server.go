@@ -7,12 +7,12 @@ import (
 	"net"
 	"sync"
 
-	"github.com/lingyicute/yiclashcore/adapter/inbound"
-	"github.com/lingyicute/yiclashcore/common/atomic"
-	N "github.com/lingyicute/yiclashcore/common/net"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/transport/socks5"
-	"github.com/lingyicute/yiclashcore/transport/tuic/common"
+	"github.com/kelleygo/clashcore/adapter/inbound"
+	"github.com/kelleygo/clashcore/common/atomic"
+	N "github.com/kelleygo/clashcore/common/net"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/transport/socks5"
+	"github.com/kelleygo/clashcore/transport/tuic/common"
 
 	"github.com/gofrs/uuid/v5"
 	"github.com/metacubex/quic-go"

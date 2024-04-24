@@ -3,8 +3,8 @@ package geodata
 import (
 	"fmt"
 
-	"github.com/lingyicute/yiclashcore/component/geodata/router"
-	C "github.com/lingyicute/yiclashcore/constant"
+	"github.com/kelleygo/clashcore/component/geodata/router"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 type loader struct {

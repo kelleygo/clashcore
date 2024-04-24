@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/transport/hysteria/obfs"
-	"github.com/lingyicute/yiclashcore/transport/hysteria/utils"
+	"github.com/kelleygo/clashcore/transport/hysteria/obfs"
+	"github.com/kelleygo/clashcore/transport/hysteria/utils"
 
 	"github.com/zhangyunhao116/fastrand"
 )

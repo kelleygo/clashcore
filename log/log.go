@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/lingyicute/yiclashcore/common/observable"
+	"github.com/kelleygo/clashcore/common/observable"
 
 	log "github.com/sirupsen/logrus"
 )

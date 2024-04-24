@@ -15,10 +15,10 @@ import (
 	"sync"
 	"time"
 
-	yiclashcoreHttp "github.com/lingyicute/yiclashcore/component/http"
-	"github.com/lingyicute/yiclashcore/constant"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
+	yiclashcoreHttp "github.com/kelleygo/clashcore/component/http"
+	"github.com/kelleygo/clashcore/constant"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
 
 	"github.com/klauspost/cpuid/v2"
 )
@@ -42,8 +42,8 @@ var (
 	backupExeName  string // 备份文件名
 	updateExeName  string // 更新后的可执行文件
 
-	baseURL       string = "https://github.com/lingyicute/YiClashCore/releases/download/Prerelease-Alpha/yiclashcore"
-	versionURL    string = "https://github.com/lingyicute/YiClashCore/releases/download/Prerelease-Alpha/version.txt"
+	baseURL       string = "https://github.com/kelleygo/clashcore/releases/download/Prerelease-Alpha/yiclashcore"
+	versionURL    string = "https://github.com/kelleygo/clashcore/releases/download/Prerelease-Alpha/version.txt"
 	packageURL    string
 	latestVersion string
 )

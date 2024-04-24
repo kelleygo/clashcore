@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"unsafe"
 
-	N "github.com/lingyicute/yiclashcore/common/net"
-	tlsC "github.com/lingyicute/yiclashcore/component/tls"
+	N "github.com/kelleygo/clashcore/common/net"
+	tlsC "github.com/kelleygo/clashcore/component/tls"
 
 	"github.com/gofrs/uuid/v5"
 	"github.com/sagernet/sing/common"

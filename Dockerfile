@@ -15,7 +15,7 @@ RUN FILE_NAME=`sh file-name.sh` && echo $FILE_NAME && \
     FILE_NAME=`ls bin/ | egrep "$FILE_NAME.gz"|awk NR==1` && echo $FILE_NAME && \
     mv bin/$FILE_NAME yiclashcore.gz && gzip -d yiclashcore.gz && echo "$FILE_NAME" > /yiclashcore-config/test
 FROM alpine:latest
-LABEL org.opencontainers.image.source="https://github.com/lingyicute/YiClashCore"
+LABEL org.opencontainers.image.source="https://github.com/kelleygo/clashcore"
 
 RUN apk add --no-cache ca-certificates tzdata iptables
 

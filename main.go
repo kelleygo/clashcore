@@ -12,12 +12,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/config"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/constant/features"
-	"github.com/lingyicute/yiclashcore/hub"
-	"github.com/lingyicute/yiclashcore/hub/executor"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/config"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/constant/features"
+	"github.com/kelleygo/clashcore/hub"
+	"github.com/kelleygo/clashcore/hub/executor"
+	"github.com/kelleygo/clashcore/log"
 
 	"go.uber.org/automaxprocs/maxprocs"
 )

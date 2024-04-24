@@ -3,7 +3,7 @@ package fakeip
 import (
 	"net/netip"
 
-	"github.com/lingyicute/yiclashcore/component/profile/cachefile"
+	"github.com/kelleygo/clashcore/component/profile/cachefile"
 )
 
 type cachefileStore struct {

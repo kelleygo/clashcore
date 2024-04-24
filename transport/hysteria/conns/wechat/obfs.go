@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/log"
-	"github.com/lingyicute/yiclashcore/transport/hysteria/obfs"
+	"github.com/kelleygo/clashcore/log"
+	"github.com/kelleygo/clashcore/transport/hysteria/obfs"
 
 	"github.com/zhangyunhao116/fastrand"
 )

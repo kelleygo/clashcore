@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/atomic"
-	"github.com/lingyicute/yiclashcore/common/net/packet"
+	"github.com/kelleygo/clashcore/common/atomic"
+	"github.com/kelleygo/clashcore/common/net/packet"
 )
 
 type readResult struct {

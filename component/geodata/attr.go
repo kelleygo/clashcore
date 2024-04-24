@@ -3,7 +3,7 @@ package geodata
 import (
 	"strings"
 
-	"github.com/lingyicute/yiclashcore/component/geodata/router"
+	"github.com/kelleygo/clashcore/component/geodata/router"
 )
 
 type AttributeList struct {

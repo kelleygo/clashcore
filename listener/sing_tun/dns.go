@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/component/resolver"
-	"github.com/lingyicute/yiclashcore/listener/sing"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/component/resolver"
+	"github.com/kelleygo/clashcore/listener/sing"
+	"github.com/kelleygo/clashcore/log"
 
 	"github.com/sagernet/sing/common/buf"
 	"github.com/sagernet/sing/common/bufio"

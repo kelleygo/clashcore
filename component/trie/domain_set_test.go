@@ -3,7 +3,7 @@ package trie_test
 import (
 	"testing"
 
-	"github.com/lingyicute/yiclashcore/component/trie"
+	"github.com/kelleygo/clashcore/component/trie"
 	"github.com/stretchr/testify/assert"
 )
 

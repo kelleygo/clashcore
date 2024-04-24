@@ -11,14 +11,14 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/lingyicute/yiclashcore/adapter/inbound"
-	"github.com/lingyicute/yiclashcore/adapter/outbound"
-	CN "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/common/sockopt"
-	C "github.com/lingyicute/yiclashcore/constant"
-	LC "github.com/lingyicute/yiclashcore/listener/config"
-	"github.com/lingyicute/yiclashcore/listener/sing"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/adapter/inbound"
+	"github.com/kelleygo/clashcore/adapter/outbound"
+	CN "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/common/sockopt"
+	C "github.com/kelleygo/clashcore/constant"
+	LC "github.com/kelleygo/clashcore/listener/config"
+	"github.com/kelleygo/clashcore/listener/sing"
+	"github.com/kelleygo/clashcore/log"
 
 	"github.com/metacubex/sing-quic/hysteria2"
 

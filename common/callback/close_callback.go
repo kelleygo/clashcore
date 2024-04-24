@@ -3,7 +3,7 @@ package callback
 import (
 	"sync"
 
-	C "github.com/lingyicute/yiclashcore/constant"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 type closeCallbackConn struct {

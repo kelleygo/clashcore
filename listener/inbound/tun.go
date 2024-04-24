@@ -4,10 +4,10 @@ import (
 	"errors"
 	"strings"
 
-	C "github.com/lingyicute/yiclashcore/constant"
-	LC "github.com/lingyicute/yiclashcore/listener/config"
-	"github.com/lingyicute/yiclashcore/listener/sing_tun"
-	"github.com/lingyicute/yiclashcore/log"
+	C "github.com/kelleygo/clashcore/constant"
+	LC "github.com/kelleygo/clashcore/listener/config"
+	"github.com/kelleygo/clashcore/listener/sing_tun"
+	"github.com/kelleygo/clashcore/log"
 )
 
 type TunOption struct {

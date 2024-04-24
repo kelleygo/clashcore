@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/lingyicute/yiclashcore/common/lru"
+	"github.com/kelleygo/clashcore/common/lru"
 
 	"github.com/metacubex/quic-go"
 )

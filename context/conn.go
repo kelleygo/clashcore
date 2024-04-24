@@ -1,11 +1,11 @@
 package context
 
 import (
-	"github.com/lingyicute/yiclashcore/common/utils"
+	"github.com/kelleygo/clashcore/common/utils"
 	"net"
 
-	N "github.com/lingyicute/yiclashcore/common/net"
-	C "github.com/lingyicute/yiclashcore/constant"
+	N "github.com/kelleygo/clashcore/common/net"
+	C "github.com/kelleygo/clashcore/constant"
 
 	"github.com/gofrs/uuid/v5"
 )

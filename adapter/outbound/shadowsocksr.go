@@ -7,16 +7,16 @@ import (
 	"net"
 	"strconv"
 
-	N "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/component/dialer"
-	"github.com/lingyicute/yiclashcore/component/proxydialer"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/transport/shadowsocks/core"
-	"github.com/lingyicute/yiclashcore/transport/shadowsocks/shadowaead"
-	"github.com/lingyicute/yiclashcore/transport/shadowsocks/shadowstream"
-	"github.com/lingyicute/yiclashcore/transport/socks5"
-	"github.com/lingyicute/yiclashcore/transport/ssr/obfs"
-	"github.com/lingyicute/yiclashcore/transport/ssr/protocol"
+	N "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/component/dialer"
+	"github.com/kelleygo/clashcore/component/proxydialer"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/transport/shadowsocks/core"
+	"github.com/kelleygo/clashcore/transport/shadowsocks/shadowaead"
+	"github.com/kelleygo/clashcore/transport/shadowsocks/shadowstream"
+	"github.com/kelleygo/clashcore/transport/socks5"
+	"github.com/kelleygo/clashcore/transport/ssr/obfs"
+	"github.com/kelleygo/clashcore/transport/ssr/protocol"
 )
 
 type ShadowSocksR struct {
@@ -125,7 +125,7 @@ func (ssr *ShadowSocksR) SupportWithDialer() C.NetWork {
 
 func NewShadowSocksR(option ShadowSocksROption) (*ShadowSocksR, error) {
 	// SSR protocol compatibility
-	// https://github.com/lingyicute/yiclashcore/pull/2056
+	// https://github.com/kelleygo/clashcore/pull/2056
 	if option.Cipher == "none" {
 		option.Cipher = "dummy"
 	}

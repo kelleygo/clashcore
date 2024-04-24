@@ -3,7 +3,7 @@ package sing_tun
 import (
 	"time"
 
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/log"
 
 	tun "github.com/metacubex/sing-tun"
 )

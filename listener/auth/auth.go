@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"github.com/lingyicute/yiclashcore/component/auth"
+	"github.com/kelleygo/clashcore/component/auth"
 )
 
 var authenticator auth.Authenticator

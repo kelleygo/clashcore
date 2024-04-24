@@ -1,7 +1,7 @@
 package udp
 
 import (
-	"github.com/lingyicute/yiclashcore/transport/hysteria/obfs"
+	"github.com/kelleygo/clashcore/transport/hysteria/obfs"
 	"net"
 	"sync"
 	"time"

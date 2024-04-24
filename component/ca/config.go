@@ -14,7 +14,7 @@ import (
 	"strings"
 	"sync"
 
-	C "github.com/lingyicute/yiclashcore/constant"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 var trustCerts []*x509.Certificate

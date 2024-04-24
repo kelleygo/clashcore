@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lingyicute/yiclashcore/component/iface"
+	"github.com/kelleygo/clashcore/component/iface"
 )
 
 func LookupLocalAddrFromIfaceName(ifaceName string, network string, destination netip.Addr, port int) (net.Addr, error) {

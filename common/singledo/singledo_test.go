@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/atomic"
+	"github.com/kelleygo/clashcore/common/atomic"
 
 	"github.com/stretchr/testify/assert"
 )

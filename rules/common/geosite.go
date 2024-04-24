@@ -3,12 +3,12 @@ package common
 import (
 	"fmt"
 
-	"github.com/lingyicute/yiclashcore/component/geodata"
-	_ "github.com/lingyicute/yiclashcore/component/geodata/memconservative"
-	"github.com/lingyicute/yiclashcore/component/geodata/router"
-	_ "github.com/lingyicute/yiclashcore/component/geodata/standard"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/component/geodata"
+	_ "github.com/kelleygo/clashcore/component/geodata/memconservative"
+	"github.com/kelleygo/clashcore/component/geodata/router"
+	_ "github.com/kelleygo/clashcore/component/geodata/standard"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
 )
 
 type GEOSITE struct {

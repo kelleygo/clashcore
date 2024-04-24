@@ -12,12 +12,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	atomic2 "github.com/lingyicute/yiclashcore/common/atomic"
-	N "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/common/pool"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
-	"github.com/lingyicute/yiclashcore/transport/tuic/common"
+	atomic2 "github.com/kelleygo/clashcore/common/atomic"
+	N "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/common/pool"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
+	"github.com/kelleygo/clashcore/transport/tuic/common"
 
 	"github.com/metacubex/quic-go"
 	"github.com/puzpuzpuz/xsync/v3"

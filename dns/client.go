@@ -8,11 +8,11 @@ import (
 	"net/netip"
 	"strings"
 
-	"github.com/lingyicute/yiclashcore/component/ca"
-	"github.com/lingyicute/yiclashcore/component/dialer"
-	"github.com/lingyicute/yiclashcore/component/resolver"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/component/ca"
+	"github.com/kelleygo/clashcore/component/dialer"
+	"github.com/kelleygo/clashcore/component/resolver"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
 
 	D "github.com/miekg/dns"
 	"github.com/zhangyunhao116/fastrand"

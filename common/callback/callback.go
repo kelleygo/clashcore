@@ -1,9 +1,9 @@
 package callback
 
 import (
-	"github.com/lingyicute/yiclashcore/common/buf"
-	N "github.com/lingyicute/yiclashcore/common/net"
-	C "github.com/lingyicute/yiclashcore/constant"
+	"github.com/kelleygo/clashcore/common/buf"
+	N "github.com/kelleygo/clashcore/common/net"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 type firstWriteCallBackConn struct {

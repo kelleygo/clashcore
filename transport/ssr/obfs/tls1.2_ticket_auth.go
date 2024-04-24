@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/pool"
-	"github.com/lingyicute/yiclashcore/transport/ssr/tools"
+	"github.com/kelleygo/clashcore/common/pool"
+	"github.com/kelleygo/clashcore/transport/ssr/tools"
 
 	"github.com/zhangyunhao116/fastrand"
 )

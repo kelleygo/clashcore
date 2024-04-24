@@ -1,7 +1,7 @@
 package sing_tun
 
 import (
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/log"
 	tun "github.com/metacubex/sing-tun"
 	"github.com/sagernet/netlink"
 	"golang.org/x/sys/unix"

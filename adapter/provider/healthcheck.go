@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/atomic"
-	"github.com/lingyicute/yiclashcore/common/batch"
-	"github.com/lingyicute/yiclashcore/common/singledo"
-	"github.com/lingyicute/yiclashcore/common/utils"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/common/atomic"
+	"github.com/kelleygo/clashcore/common/batch"
+	"github.com/kelleygo/clashcore/common/singledo"
+	"github.com/kelleygo/clashcore/common/utils"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
 
 	"github.com/dlclark/regexp2"
 )

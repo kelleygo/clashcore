@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/transport/hysteria/obfs"
-	"github.com/lingyicute/yiclashcore/transport/hysteria/pmtud_fix"
-	"github.com/lingyicute/yiclashcore/transport/hysteria/transport"
-	"github.com/lingyicute/yiclashcore/transport/hysteria/utils"
+	"github.com/kelleygo/clashcore/transport/hysteria/obfs"
+	"github.com/kelleygo/clashcore/transport/hysteria/pmtud_fix"
+	"github.com/kelleygo/clashcore/transport/hysteria/transport"
+	"github.com/kelleygo/clashcore/transport/hysteria/utils"
 
 	"github.com/lunixbochs/struc"
 	"github.com/metacubex/quic-go"

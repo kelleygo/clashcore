@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net"
 
-	N "github.com/lingyicute/yiclashcore/common/net"
+	N "github.com/kelleygo/clashcore/common/net"
 
 	"github.com/zhangyunhao116/fastrand"
 )

@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/buf"
+	"github.com/kelleygo/clashcore/common/buf"
 )
 
 type refConn struct {

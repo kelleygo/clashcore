@@ -3,8 +3,8 @@ package common
 import (
 	"fmt"
 
-	"github.com/lingyicute/yiclashcore/common/utils"
-	C "github.com/lingyicute/yiclashcore/constant"
+	"github.com/kelleygo/clashcore/common/utils"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 type DSCP struct {

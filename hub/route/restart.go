@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/lingyicute/yiclashcore/hub/executor"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/hub/executor"
+	"github.com/kelleygo/clashcore/log"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

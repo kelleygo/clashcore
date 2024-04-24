@@ -9,7 +9,7 @@ import (
 	"net/netip"
 	"strconv"
 
-	"github.com/lingyicute/yiclashcore/component/auth"
+	"github.com/kelleygo/clashcore/component/auth"
 )
 
 const Version = 0x04

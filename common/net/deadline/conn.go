@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/atomic"
+	"github.com/kelleygo/clashcore/common/atomic"
 
 	"github.com/sagernet/sing/common/buf"
 	"github.com/sagernet/sing/common/bufio"

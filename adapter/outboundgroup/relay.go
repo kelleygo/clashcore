@@ -4,11 +4,11 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/lingyicute/yiclashcore/adapter/outbound"
-	"github.com/lingyicute/yiclashcore/component/dialer"
-	"github.com/lingyicute/yiclashcore/component/proxydialer"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/constant/provider"
+	"github.com/kelleygo/clashcore/adapter/outbound"
+	"github.com/kelleygo/clashcore/component/dialer"
+	"github.com/kelleygo/clashcore/component/proxydialer"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/constant/provider"
 )
 
 type Relay struct {

@@ -1,6 +1,6 @@
 package sniffer
 
-import "github.com/lingyicute/yiclashcore/constant"
+import "github.com/kelleygo/clashcore/constant"
 
 type Sniffer interface {
 	SupportNetwork() constant.NetWork

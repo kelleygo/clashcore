@@ -3,11 +3,11 @@ package inbound
 import (
 	"fmt"
 
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
 
-	"github.com/lingyicute/yiclashcore/listener/mixed"
-	"github.com/lingyicute/yiclashcore/listener/socks"
+	"github.com/kelleygo/clashcore/listener/mixed"
+	"github.com/kelleygo/clashcore/listener/socks"
 )
 
 type MixedOption struct {

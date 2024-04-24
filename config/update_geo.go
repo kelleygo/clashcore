@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/lingyicute/yiclashcore/component/geodata"
-	_ "github.com/lingyicute/yiclashcore/component/geodata/standard"
-	"github.com/lingyicute/yiclashcore/component/mmdb"
-	C "github.com/lingyicute/yiclashcore/constant"
+	"github.com/kelleygo/clashcore/component/geodata"
+	_ "github.com/kelleygo/clashcore/component/geodata/standard"
+	"github.com/kelleygo/clashcore/component/mmdb"
+	C "github.com/kelleygo/clashcore/constant"
 
 	"github.com/oschwald/maxminddb-golang"
 )

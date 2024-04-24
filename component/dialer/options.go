@@ -4,8 +4,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/lingyicute/yiclashcore/common/atomic"
-	"github.com/lingyicute/yiclashcore/component/resolver"
+	"github.com/kelleygo/clashcore/common/atomic"
+	"github.com/kelleygo/clashcore/component/resolver"
 )
 
 var (

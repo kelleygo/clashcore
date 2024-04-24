@@ -18,10 +18,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/buf"
-	N "github.com/lingyicute/yiclashcore/common/net"
-	tlsC "github.com/lingyicute/yiclashcore/component/tls"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/common/buf"
+	N "github.com/kelleygo/clashcore/common/net"
+	tlsC "github.com/kelleygo/clashcore/component/tls"
+	"github.com/kelleygo/clashcore/log"
 
 	"github.com/gobwas/ws"
 	"github.com/gobwas/ws/wsutil"

@@ -2,9 +2,9 @@ package provider
 
 import (
 	"fmt"
-	C "github.com/lingyicute/yiclashcore/constant"
-	P "github.com/lingyicute/yiclashcore/constant/provider"
-	"github.com/lingyicute/yiclashcore/rules/common"
+	C "github.com/kelleygo/clashcore/constant"
+	P "github.com/kelleygo/clashcore/constant/provider"
+	"github.com/kelleygo/clashcore/rules/common"
 )
 
 type RuleSet struct {

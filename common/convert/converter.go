@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/log"
 )
 
 // ConvertsV2Ray convert V2Ray subscribe proxies data to yiclashcore proxies config

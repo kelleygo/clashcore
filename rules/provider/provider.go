@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/pool"
-	"github.com/lingyicute/yiclashcore/component/resource"
-	C "github.com/lingyicute/yiclashcore/constant"
-	P "github.com/lingyicute/yiclashcore/constant/provider"
+	"github.com/kelleygo/clashcore/common/pool"
+	"github.com/kelleygo/clashcore/component/resource"
+	C "github.com/kelleygo/clashcore/constant"
+	P "github.com/kelleygo/clashcore/constant/provider"
 )
 
 var (

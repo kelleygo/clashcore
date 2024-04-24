@@ -8,14 +8,14 @@ import (
 	"net/http"
 	"strconv"
 
-	N "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/component/ca"
-	"github.com/lingyicute/yiclashcore/component/dialer"
-	"github.com/lingyicute/yiclashcore/component/proxydialer"
-	tlsC "github.com/lingyicute/yiclashcore/component/tls"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/transport/gun"
-	"github.com/lingyicute/yiclashcore/transport/trojan"
+	N "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/component/ca"
+	"github.com/kelleygo/clashcore/component/dialer"
+	"github.com/kelleygo/clashcore/component/proxydialer"
+	tlsC "github.com/kelleygo/clashcore/component/tls"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/transport/gun"
+	"github.com/kelleygo/clashcore/transport/trojan"
 )
 
 type Trojan struct {

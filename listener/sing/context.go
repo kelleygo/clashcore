@@ -4,7 +4,7 @@ import (
 	"context"
 	"golang.org/x/exp/slices"
 
-	"github.com/lingyicute/yiclashcore/adapter/inbound"
+	"github.com/kelleygo/clashcore/adapter/inbound"
 
 	"github.com/sagernet/sing/common/auth"
 )

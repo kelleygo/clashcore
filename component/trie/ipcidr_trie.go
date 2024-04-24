@@ -3,7 +3,7 @@ package trie
 import (
 	"net"
 
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/log"
 )
 
 type IPV6 bool

@@ -3,7 +3,7 @@ package route
 import (
 	"net/http"
 
-	"github.com/lingyicute/yiclashcore/component/resolver"
+	"github.com/kelleygo/clashcore/component/resolver"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

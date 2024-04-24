@@ -4,7 +4,7 @@ import (
 	"net"
 	"sort"
 
-	"github.com/lingyicute/yiclashcore/transport/ssr/tools"
+	"github.com/kelleygo/clashcore/transport/ssr/tools"
 )
 
 func init() {

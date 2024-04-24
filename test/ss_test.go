@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/docker/docker/api/types/container"
-	"github.com/lingyicute/yiclashcore/adapter/outbound"
-	C "github.com/lingyicute/yiclashcore/constant"
+	"github.com/kelleygo/clashcore/adapter/outbound"
+	C "github.com/kelleygo/clashcore/constant"
 	"github.com/stretchr/testify/require"
 )
 

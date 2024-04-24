@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/tunnel/statistic"
+	"github.com/kelleygo/clashcore/tunnel/statistic"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

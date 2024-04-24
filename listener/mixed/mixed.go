@@ -3,14 +3,14 @@ package mixed
 import (
 	"net"
 
-	"github.com/lingyicute/yiclashcore/adapter/inbound"
-	"github.com/lingyicute/yiclashcore/common/lru"
-	N "github.com/lingyicute/yiclashcore/common/net"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/listener/http"
-	"github.com/lingyicute/yiclashcore/listener/socks"
-	"github.com/lingyicute/yiclashcore/transport/socks4"
-	"github.com/lingyicute/yiclashcore/transport/socks5"
+	"github.com/kelleygo/clashcore/adapter/inbound"
+	"github.com/kelleygo/clashcore/common/lru"
+	N "github.com/kelleygo/clashcore/common/net"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/listener/http"
+	"github.com/kelleygo/clashcore/listener/socks"
+	"github.com/kelleygo/clashcore/transport/socks4"
+	"github.com/kelleygo/clashcore/transport/socks5"
 )
 
 type Listener struct {

@@ -6,8 +6,8 @@ import (
 	"net"
 	"net/netip"
 
-	"github.com/lingyicute/yiclashcore/common/nnip"
-	"github.com/lingyicute/yiclashcore/component/iface"
+	"github.com/kelleygo/clashcore/common/nnip"
+	"github.com/kelleygo/clashcore/component/iface"
 
 	"github.com/insomniacslk/dhcp/dhcpv4"
 )

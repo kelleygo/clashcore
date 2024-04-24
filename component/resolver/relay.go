@@ -7,7 +7,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/pool"
+	"github.com/kelleygo/clashcore/common/pool"
 
 	D "github.com/miekg/dns"
 )

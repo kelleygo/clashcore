@@ -3,7 +3,7 @@ package config
 import (
 	"net/netip"
 
-	C "github.com/lingyicute/yiclashcore/constant"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 func StringSliceToNetipPrefixSlice(ss []string) ([]netip.Prefix, error) {

@@ -8,9 +8,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/lingyicute/yiclashcore/common/pool"
-	"github.com/lingyicute/yiclashcore/transport/shadowsocks/shadowaead"
-	"github.com/lingyicute/yiclashcore/transport/socks5"
+	"github.com/kelleygo/clashcore/common/pool"
+	"github.com/kelleygo/clashcore/transport/shadowsocks/shadowaead"
+	"github.com/kelleygo/clashcore/transport/socks5"
 )
 
 const (

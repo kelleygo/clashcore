@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/adapter/outboundgroup"
-	"github.com/lingyicute/yiclashcore/common/structure"
-	yiclashcoreHttp "github.com/lingyicute/yiclashcore/component/http"
-	C "github.com/lingyicute/yiclashcore/constant"
+	"github.com/kelleygo/clashcore/adapter/outboundgroup"
+	"github.com/kelleygo/clashcore/common/structure"
+	yiclashcoreHttp "github.com/kelleygo/clashcore/component/http"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 func downloadForBytes(url string) ([]byte, error) {

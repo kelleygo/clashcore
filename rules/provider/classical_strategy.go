@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
 )
 
 type classicalStrategy struct {

@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/atomic"
-	N "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/common/pool"
-	"github.com/lingyicute/yiclashcore/transport/tuic/common"
+	"github.com/kelleygo/clashcore/common/atomic"
+	N "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/common/pool"
+	"github.com/kelleygo/clashcore/transport/tuic/common"
 
 	"github.com/metacubex/quic-go"
 )

@@ -3,7 +3,7 @@ package common
 import (
 	"strings"
 
-	C "github.com/lingyicute/yiclashcore/constant"
+	C "github.com/kelleygo/clashcore/constant"
 	"golang.org/x/net/idna"
 )
 

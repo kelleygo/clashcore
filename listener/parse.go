@@ -3,9 +3,9 @@ package listener
 import (
 	"fmt"
 
-	"github.com/lingyicute/yiclashcore/common/structure"
-	C "github.com/lingyicute/yiclashcore/constant"
-	IN "github.com/lingyicute/yiclashcore/listener/inbound"
+	"github.com/kelleygo/clashcore/common/structure"
+	C "github.com/kelleygo/clashcore/constant"
+	IN "github.com/kelleygo/clashcore/listener/inbound"
 )
 
 func ParseListener(mapping map[string]any) (C.InboundListener, error) {

@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/lingyicute/yiclashcore/common/nnip"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/common/nnip"
+	"github.com/kelleygo/clashcore/log"
 )
 
 // store process name for when dealing with multiple PROCESS-NAME rules

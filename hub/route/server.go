@@ -14,12 +14,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/adapter/inbound"
-	CN "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/common/utils"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
-	"github.com/lingyicute/yiclashcore/tunnel/statistic"
+	"github.com/kelleygo/clashcore/adapter/inbound"
+	CN "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/common/utils"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
+	"github.com/kelleygo/clashcore/tunnel/statistic"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"

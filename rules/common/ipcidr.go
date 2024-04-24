@@ -3,7 +3,7 @@ package common
 import (
 	"net/netip"
 
-	C "github.com/lingyicute/yiclashcore/constant"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 type IPCIDROption func(*IPCIDR)

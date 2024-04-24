@@ -6,13 +6,13 @@ import (
 	"net"
 	"strconv"
 
-	N "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/common/structure"
-	"github.com/lingyicute/yiclashcore/component/dialer"
-	"github.com/lingyicute/yiclashcore/component/proxydialer"
-	C "github.com/lingyicute/yiclashcore/constant"
-	obfs "github.com/lingyicute/yiclashcore/transport/simple-obfs"
-	"github.com/lingyicute/yiclashcore/transport/snell"
+	N "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/common/structure"
+	"github.com/kelleygo/clashcore/component/dialer"
+	"github.com/kelleygo/clashcore/component/proxydialer"
+	C "github.com/kelleygo/clashcore/constant"
+	obfs "github.com/kelleygo/clashcore/transport/simple-obfs"
+	"github.com/kelleygo/clashcore/transport/snell"
 )
 
 type Snell struct {

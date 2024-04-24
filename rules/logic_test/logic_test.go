@@ -2,10 +2,10 @@ package logic_test
 
 import (
 	// https://github.com/golang/go/wiki/CodeReviewComments#import-dot
-	. "github.com/lingyicute/yiclashcore/rules/logic"
+	. "github.com/kelleygo/clashcore/rules/logic"
 
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/rules"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/rules"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

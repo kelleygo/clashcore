@@ -2,7 +2,7 @@ package common
 
 import (
 	"fmt"
-	C "github.com/lingyicute/yiclashcore/constant"
+	C "github.com/kelleygo/clashcore/constant"
 	"strings"
 )
 

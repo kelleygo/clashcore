@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	yiclashcoreOnce "github.com/lingyicute/yiclashcore/common/once"
-	yiclashcoreHttp "github.com/lingyicute/yiclashcore/component/http"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
+	yiclashcoreOnce "github.com/kelleygo/clashcore/common/once"
+	yiclashcoreHttp "github.com/kelleygo/clashcore/component/http"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
 
 	"github.com/oschwald/maxminddb-golang"
 )

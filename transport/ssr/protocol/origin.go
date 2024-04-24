@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"net"
 
-	N "github.com/lingyicute/yiclashcore/common/net"
+	N "github.com/kelleygo/clashcore/common/net"
 )
 
 type origin struct{}

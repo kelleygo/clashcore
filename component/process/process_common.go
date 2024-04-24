@@ -2,7 +2,7 @@
 
 package process
 
-import "github.com/lingyicute/yiclashcore/constant"
+import "github.com/kelleygo/clashcore/constant"
 
 func FindPackageName(metadata *constant.Metadata) (string, error) {
 	return "", nil

@@ -9,9 +9,9 @@ import (
 	"io"
 	"net"
 
-	"github.com/lingyicute/yiclashcore/common/buf"
-	N "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/common/buf"
+	N "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/log"
 
 	"github.com/gofrs/uuid/v5"
 	utls "github.com/sagernet/utls"

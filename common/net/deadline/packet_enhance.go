@@ -5,7 +5,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/lingyicute/yiclashcore/common/net/packet"
+	"github.com/kelleygo/clashcore/common/net/packet"
 )
 
 type EnhancePacketConn struct {

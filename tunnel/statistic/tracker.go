@@ -6,11 +6,11 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/atomic"
-	"github.com/lingyicute/yiclashcore/common/buf"
-	N "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/common/utils"
-	C "github.com/lingyicute/yiclashcore/constant"
+	"github.com/kelleygo/clashcore/common/atomic"
+	"github.com/kelleygo/clashcore/common/buf"
+	N "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/common/utils"
+	C "github.com/kelleygo/clashcore/constant"
 
 	"github.com/gofrs/uuid/v5"
 )

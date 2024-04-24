@@ -9,14 +9,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/adapter/outbound"
-	"github.com/lingyicute/yiclashcore/common/callback"
-	"github.com/lingyicute/yiclashcore/common/lru"
-	N "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/common/utils"
-	"github.com/lingyicute/yiclashcore/component/dialer"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/constant/provider"
+	"github.com/kelleygo/clashcore/adapter/outbound"
+	"github.com/kelleygo/clashcore/common/callback"
+	"github.com/kelleygo/clashcore/common/lru"
+	N "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/common/utils"
+	"github.com/kelleygo/clashcore/component/dialer"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/constant/provider"
 
 	"golang.org/x/net/publicsuffix"
 )

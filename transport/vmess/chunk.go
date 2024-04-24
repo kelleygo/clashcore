@@ -5,7 +5,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/lingyicute/yiclashcore/common/pool"
+	"github.com/kelleygo/clashcore/common/pool"
 )
 
 const (

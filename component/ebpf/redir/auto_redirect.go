@@ -16,9 +16,9 @@ import (
 	"github.com/sagernet/netlink"
 	"golang.org/x/sys/unix"
 
-	"github.com/lingyicute/yiclashcore/component/ebpf/byteorder"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/transport/socks5"
+	"github.com/kelleygo/clashcore/component/ebpf/byteorder"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/transport/socks5"
 )
 
 //go:generate go run github.com/cilium/ebpf/cmd/bpf2go -cc $BPF_CLANG -cflags $BPF_CFLAGS bpf ../bpf/redir.c

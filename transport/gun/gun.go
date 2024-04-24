@@ -17,10 +17,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/atomic"
-	"github.com/lingyicute/yiclashcore/common/buf"
-	"github.com/lingyicute/yiclashcore/common/pool"
-	tlsC "github.com/lingyicute/yiclashcore/component/tls"
+	"github.com/kelleygo/clashcore/common/atomic"
+	"github.com/kelleygo/clashcore/common/buf"
+	"github.com/kelleygo/clashcore/common/pool"
+	tlsC "github.com/kelleygo/clashcore/component/tls"
 
 	"golang.org/x/net/http2"
 )

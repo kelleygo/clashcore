@@ -3,10 +3,10 @@ package common
 import (
 	"strconv"
 
-	"github.com/lingyicute/yiclashcore/component/geodata"
-	"github.com/lingyicute/yiclashcore/component/mmdb"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/component/geodata"
+	"github.com/kelleygo/clashcore/component/mmdb"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
 )
 
 type ASN struct {

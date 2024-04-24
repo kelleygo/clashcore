@@ -38,8 +38,8 @@
             ldflags = [
               "-s"
               "-w"
-              "-X github.com/lingyicute/yiclashcore/constant.Version=dev-${version}"
-              "-X github.com/lingyicute/yiclashcore/constant.BuildTime=${version}"
+              "-X github.com/kelleygo/clashcore/constant.Version=dev-${version}"
+              "-X github.com/kelleygo/clashcore/constant.BuildTime=${version}"
             ];
             
             tags = [

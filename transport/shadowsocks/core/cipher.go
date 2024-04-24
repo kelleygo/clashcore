@@ -7,9 +7,9 @@ import (
 	"sort"
 	"strings"
 
-	N "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/transport/shadowsocks/shadowaead"
-	"github.com/lingyicute/yiclashcore/transport/shadowsocks/shadowstream"
+	N "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/transport/shadowsocks/shadowaead"
+	"github.com/kelleygo/clashcore/transport/shadowsocks/shadowstream"
 )
 
 type Cipher interface {

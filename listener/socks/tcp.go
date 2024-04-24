@@ -4,12 +4,12 @@ import (
 	"io"
 	"net"
 
-	"github.com/lingyicute/yiclashcore/adapter/inbound"
-	N "github.com/lingyicute/yiclashcore/common/net"
-	C "github.com/lingyicute/yiclashcore/constant"
-	authStore "github.com/lingyicute/yiclashcore/listener/auth"
-	"github.com/lingyicute/yiclashcore/transport/socks4"
-	"github.com/lingyicute/yiclashcore/transport/socks5"
+	"github.com/kelleygo/clashcore/adapter/inbound"
+	N "github.com/kelleygo/clashcore/common/net"
+	C "github.com/kelleygo/clashcore/constant"
+	authStore "github.com/kelleygo/clashcore/listener/auth"
+	"github.com/kelleygo/clashcore/transport/socks4"
+	"github.com/kelleygo/clashcore/transport/socks5"
 )
 
 type Listener struct {

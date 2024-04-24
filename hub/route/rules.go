@@ -1,10 +1,10 @@
 package route
 
 import (
-	"github.com/lingyicute/yiclashcore/constant"
+	"github.com/kelleygo/clashcore/constant"
 	"net/http"
 
-	"github.com/lingyicute/yiclashcore/tunnel"
+	"github.com/kelleygo/clashcore/tunnel"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

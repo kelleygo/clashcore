@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/component/ca"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/listener/inner"
+	"github.com/kelleygo/clashcore/component/ca"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/listener/inner"
 )
 
 func HttpRequest(ctx context.Context, url, method string, header map[string][]string, body io.Reader) (*http.Response, error) {

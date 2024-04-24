@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package yiclashcore.component.geodata.router;
 option csharp_namespace = "YiClashCore.Component.Geodata.Router";
-option go_package = "github.com/lingyicute/yiclashcore/component/geodata/router";
+option go_package = "github.com/kelleygo/clashcore/component/geodata/router";
 option java_package = "com.yiclashcore.component.geodata.router";
 option java_multiple_files = true;
 

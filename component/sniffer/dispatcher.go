@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/lru"
-	N "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/component/trie"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/constant/sniffer"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/common/lru"
+	N "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/component/trie"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/constant/sniffer"
+	"github.com/kelleygo/clashcore/log"
 )
 
 var (

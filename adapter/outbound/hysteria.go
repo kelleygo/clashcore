@@ -14,17 +14,17 @@ import (
 	"github.com/metacubex/quic-go/congestion"
 	M "github.com/sagernet/sing/common/metadata"
 
-	"github.com/lingyicute/yiclashcore/component/ca"
-	"github.com/lingyicute/yiclashcore/component/dialer"
-	"github.com/lingyicute/yiclashcore/component/proxydialer"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
-	hyCongestion "github.com/lingyicute/yiclashcore/transport/hysteria/congestion"
-	"github.com/lingyicute/yiclashcore/transport/hysteria/core"
-	"github.com/lingyicute/yiclashcore/transport/hysteria/obfs"
-	"github.com/lingyicute/yiclashcore/transport/hysteria/pmtud_fix"
-	"github.com/lingyicute/yiclashcore/transport/hysteria/transport"
-	"github.com/lingyicute/yiclashcore/transport/hysteria/utils"
+	"github.com/kelleygo/clashcore/component/ca"
+	"github.com/kelleygo/clashcore/component/dialer"
+	"github.com/kelleygo/clashcore/component/proxydialer"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
+	hyCongestion "github.com/kelleygo/clashcore/transport/hysteria/congestion"
+	"github.com/kelleygo/clashcore/transport/hysteria/core"
+	"github.com/kelleygo/clashcore/transport/hysteria/obfs"
+	"github.com/kelleygo/clashcore/transport/hysteria/pmtud_fix"
+	"github.com/kelleygo/clashcore/transport/hysteria/transport"
+	"github.com/kelleygo/clashcore/transport/hysteria/utils"
 )
 
 const (

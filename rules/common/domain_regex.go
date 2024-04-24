@@ -3,7 +3,7 @@ package common
 import (
 	"regexp"
 
-	C "github.com/lingyicute/yiclashcore/constant"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 type DomainRegex struct {

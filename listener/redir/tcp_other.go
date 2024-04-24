@@ -6,7 +6,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/lingyicute/yiclashcore/transport/socks5"
+	"github.com/kelleygo/clashcore/transport/socks5"
 )
 
 func parserPacket(conn net.Conn) (socks5.Addr, error) {

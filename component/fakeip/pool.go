@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/lingyicute/yiclashcore/common/nnip"
-	"github.com/lingyicute/yiclashcore/component/profile/cachefile"
-	"github.com/lingyicute/yiclashcore/component/trie"
+	"github.com/kelleygo/clashcore/common/nnip"
+	"github.com/kelleygo/clashcore/component/profile/cachefile"
+	"github.com/kelleygo/clashcore/component/trie"
 )
 
 const (

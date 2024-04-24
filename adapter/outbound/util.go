@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/lingyicute/yiclashcore/component/resolver"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/transport/socks5"
+	"github.com/kelleygo/clashcore/component/resolver"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/transport/socks5"
 )
 
 var (

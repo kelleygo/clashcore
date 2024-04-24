@@ -5,11 +5,11 @@ import (
 	"errors"
 	"net/netip"
 
-	N "github.com/lingyicute/yiclashcore/common/net"
-	"github.com/lingyicute/yiclashcore/component/dialer"
-	"github.com/lingyicute/yiclashcore/component/loopback"
-	"github.com/lingyicute/yiclashcore/component/resolver"
-	C "github.com/lingyicute/yiclashcore/constant"
+	N "github.com/kelleygo/clashcore/common/net"
+	"github.com/kelleygo/clashcore/component/dialer"
+	"github.com/kelleygo/clashcore/component/loopback"
+	"github.com/kelleygo/clashcore/component/resolver"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 type Direct struct {

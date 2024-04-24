@@ -4,12 +4,12 @@ import (
 	"net/netip"
 	"strings"
 
-	"github.com/lingyicute/yiclashcore/component/geodata"
-	"github.com/lingyicute/yiclashcore/component/geodata/router"
-	"github.com/lingyicute/yiclashcore/component/mmdb"
-	"github.com/lingyicute/yiclashcore/component/trie"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/component/geodata"
+	"github.com/kelleygo/clashcore/component/geodata/router"
+	"github.com/kelleygo/clashcore/component/mmdb"
+	"github.com/kelleygo/clashcore/component/trie"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
 )
 
 type fallbackIPFilter interface {

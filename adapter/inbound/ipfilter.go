@@ -4,7 +4,7 @@ import (
 	"net"
 	"net/netip"
 
-	C "github.com/lingyicute/yiclashcore/constant"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 var lanAllowedIPs []netip.Prefix

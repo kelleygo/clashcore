@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	tlsC "github.com/lingyicute/yiclashcore/component/tls"
+	tlsC "github.com/kelleygo/clashcore/component/tls"
 )
 
 type RealityOptions struct {

@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/adapter/outbound"
-	"github.com/lingyicute/yiclashcore/common/atomic"
-	"github.com/lingyicute/yiclashcore/common/utils"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/constant/provider"
-	types "github.com/lingyicute/yiclashcore/constant/provider"
-	"github.com/lingyicute/yiclashcore/log"
-	"github.com/lingyicute/yiclashcore/tunnel"
+	"github.com/kelleygo/clashcore/adapter/outbound"
+	"github.com/kelleygo/clashcore/common/atomic"
+	"github.com/kelleygo/clashcore/common/utils"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/constant/provider"
+	types "github.com/kelleygo/clashcore/constant/provider"
+	"github.com/kelleygo/clashcore/log"
+	"github.com/kelleygo/clashcore/tunnel"
 
 	"github.com/dlclark/regexp2"
 )

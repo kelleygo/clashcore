@@ -3,7 +3,7 @@ package constant
 import (
 	"net"
 
-	N "github.com/lingyicute/yiclashcore/common/net"
+	N "github.com/kelleygo/clashcore/common/net"
 
 	"github.com/gofrs/uuid/v5"
 )

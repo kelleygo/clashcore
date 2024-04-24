@@ -5,13 +5,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/lru"
-	"github.com/lingyicute/yiclashcore/common/nnip"
-	"github.com/lingyicute/yiclashcore/component/fakeip"
-	R "github.com/lingyicute/yiclashcore/component/resolver"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/context"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/common/lru"
+	"github.com/kelleygo/clashcore/common/nnip"
+	"github.com/kelleygo/clashcore/component/fakeip"
+	R "github.com/kelleygo/clashcore/component/resolver"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/context"
+	"github.com/kelleygo/clashcore/log"
 
 	D "github.com/miekg/dns"
 )

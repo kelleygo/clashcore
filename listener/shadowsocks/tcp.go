@@ -4,12 +4,12 @@ import (
 	"net"
 	"strings"
 
-	"github.com/lingyicute/yiclashcore/adapter/inbound"
-	N "github.com/lingyicute/yiclashcore/common/net"
-	C "github.com/lingyicute/yiclashcore/constant"
-	LC "github.com/lingyicute/yiclashcore/listener/config"
-	"github.com/lingyicute/yiclashcore/transport/shadowsocks/core"
-	"github.com/lingyicute/yiclashcore/transport/socks5"
+	"github.com/kelleygo/clashcore/adapter/inbound"
+	N "github.com/kelleygo/clashcore/common/net"
+	C "github.com/kelleygo/clashcore/constant"
+	LC "github.com/kelleygo/clashcore/listener/config"
+	"github.com/kelleygo/clashcore/transport/shadowsocks/core"
+	"github.com/kelleygo/clashcore/transport/socks5"
 )
 
 type Listener struct {

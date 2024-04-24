@@ -1,10 +1,10 @@
 package hub
 
 import (
-	"github.com/lingyicute/yiclashcore/config"
-	"github.com/lingyicute/yiclashcore/hub/executor"
-	"github.com/lingyicute/yiclashcore/hub/route"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/config"
+	"github.com/kelleygo/clashcore/hub/executor"
+	"github.com/kelleygo/clashcore/hub/route"
+	"github.com/kelleygo/clashcore/log"
 )
 
 type Option func(*config.Config)

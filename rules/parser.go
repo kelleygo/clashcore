@@ -3,10 +3,10 @@ package rules
 import (
 	"fmt"
 
-	C "github.com/lingyicute/yiclashcore/constant"
-	RC "github.com/lingyicute/yiclashcore/rules/common"
-	"github.com/lingyicute/yiclashcore/rules/logic"
-	RP "github.com/lingyicute/yiclashcore/rules/provider"
+	C "github.com/kelleygo/clashcore/constant"
+	RC "github.com/kelleygo/clashcore/rules/common"
+	"github.com/kelleygo/clashcore/rules/logic"
+	RP "github.com/kelleygo/clashcore/rules/provider"
 )
 
 func ParseRule(tp, payload, target string, params []string, subRules map[string][]C.Rule) (parsed C.Rule, parseErr error) {

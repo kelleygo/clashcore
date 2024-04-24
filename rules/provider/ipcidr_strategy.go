@@ -1,9 +1,9 @@
 package provider
 
 import (
-	"github.com/lingyicute/yiclashcore/component/cidr"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/component/cidr"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
 )
 
 type ipcidrStrategy struct {

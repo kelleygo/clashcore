@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/component/dialer"
-	"github.com/lingyicute/yiclashcore/component/proxydialer"
-	"github.com/lingyicute/yiclashcore/log"
+	"github.com/kelleygo/clashcore/component/dialer"
+	"github.com/kelleygo/clashcore/component/proxydialer"
+	"github.com/kelleygo/clashcore/log"
 
 	M "github.com/sagernet/sing/common/metadata"
 	"github.com/sagernet/sing/common/ntp"

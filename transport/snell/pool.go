@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/component/pool"
-	"github.com/lingyicute/yiclashcore/transport/shadowsocks/shadowaead"
+	"github.com/kelleygo/clashcore/component/pool"
+	"github.com/kelleygo/clashcore/transport/shadowsocks/shadowaead"
 )
 
 type Pool struct {

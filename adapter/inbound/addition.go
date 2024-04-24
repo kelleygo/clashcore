@@ -3,7 +3,7 @@ package inbound
 import (
 	"net"
 
-	C "github.com/lingyicute/yiclashcore/constant"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 type Addition func(metadata *C.Metadata)

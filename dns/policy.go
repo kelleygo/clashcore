@@ -1,9 +1,9 @@
 package dns
 
 import (
-	"github.com/lingyicute/yiclashcore/component/trie"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/constant/provider"
+	"github.com/kelleygo/clashcore/component/trie"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/constant/provider"
 )
 
 type dnsPolicy interface {

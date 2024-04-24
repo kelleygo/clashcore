@@ -8,10 +8,10 @@ import (
 	"os"
 	"time"
 
-	yiclashcoreHttp "github.com/lingyicute/yiclashcore/component/http"
-	"github.com/lingyicute/yiclashcore/component/mmdb"
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/log"
+	yiclashcoreHttp "github.com/kelleygo/clashcore/component/http"
+	"github.com/kelleygo/clashcore/component/mmdb"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/log"
 )
 
 var (

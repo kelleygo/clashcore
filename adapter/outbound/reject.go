@@ -6,9 +6,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/common/buf"
-	"github.com/lingyicute/yiclashcore/component/dialer"
-	C "github.com/lingyicute/yiclashcore/constant"
+	"github.com/kelleygo/clashcore/common/buf"
+	"github.com/kelleygo/clashcore/component/dialer"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 type Reject struct {

@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lingyicute/yiclashcore/component/profile/cachefile"
-	"github.com/lingyicute/yiclashcore/component/trie"
+	"github.com/kelleygo/clashcore/component/profile/cachefile"
+	"github.com/kelleygo/clashcore/component/trie"
 
 	"github.com/sagernet/bbolt"
 	"github.com/stretchr/testify/assert"

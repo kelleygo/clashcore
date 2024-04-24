@@ -3,8 +3,8 @@
 package outboundgroup
 
 import (
-	C "github.com/lingyicute/yiclashcore/constant"
-	"github.com/lingyicute/yiclashcore/constant/provider"
+	C "github.com/kelleygo/clashcore/constant"
+	"github.com/kelleygo/clashcore/constant/provider"
 )
 
 type ProxyGroup interface {

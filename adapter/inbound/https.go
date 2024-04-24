@@ -4,7 +4,7 @@ import (
 	"net"
 	"net/http"
 
-	C "github.com/lingyicute/yiclashcore/constant"
+	C "github.com/kelleygo/clashcore/constant"
 )
 
 // NewHTTPS receive CONNECT request and return ConnContext
