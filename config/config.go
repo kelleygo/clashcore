@@ -1278,6 +1278,10 @@ func paresNTP(rawCfg *RawConfig) *NTP {
 	return ntpCfg
 }
 
+func ParseDNS(rawCfg *RawConfig) (*DNS, error) {
+	return parseDNS(rawCfg, nil, nil, nil)
+}
+
 func parseDNS(rawCfg *RawConfig, hosts *trie.DomainTrie[resolver.HostValue], rules []C.Rule, ruleProviders map[string]providerTypes.RuleProvider) (*DNS, error) {
 	cfg := rawCfg.DNS
 	if cfg.Enable && len(cfg.NameServer) == 0 {
